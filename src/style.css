@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+}
+.userName{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+.cardDashboard{
+    height: 150px;
+    border: 1px solid #060b26;
+    border-radius: 10px;
+    padding: 0 !important;
+    margin-bottom: 5px;
+}
+.cardDashboardTitle{
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color:#fff;
+    border-bottom: 1px solid blue;
+    border-radius: 10px 10px 0 0;
+    background-color: #060b26;
+    text-align: center;
+}
+textarea{
+    min-height: 150px;
+}
+.cardDashboardBody{
+    color: #060b26;
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.logout{
+    color: black;
+    background-color: wheat;
+}
+.heading{
+    top: 0;
+}
+.successMsg{
+    color: green;
+}
+.errorMsg{
+    /* margin-top: -30px; */
+    color: red;
+    font-family: cursive;
+}
+.formData{
+    border: 1px solid lightgray;
+    background-color: #060b26;
+    height: auto;
+    box-shadow: 5px 5px lightgray;
+    padding: 15px;
+    border-radius: 10px;
+}
+.formData label{color:white;}
+.form-div{
+    margin-top: 130px;
+}
+.center-div{
+    border-radius: 30px;
+    border: 1px solid;
+    background-color: #fff;
+}
+.imageback{
+    height: 50% !important;
+    width: 100%;
+    margin:0 -30px;
+    left: 0;
+    border-radius: 30px 0 0 30px;
+}
+.font-style{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.forgot{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+}
+.forgot:hover{
+    cursor: pointer;
+}
+::placeholder{
+    font-family: 'Beon', sans-serif;
+}
+.log-in-logo{
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+}
+.form-control:focus{
+    border: 1px solid black;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+ }
+ .addButton{
+    margin: 5px;
+    display: flex;
+    float: right;
+ }
+.headTitle{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+@media screen and (max-width: 1000px) {
+    .imageback{
+        display: none;
+        height: 50% !important;
+        margin: 0 0;
+        border-radius: 0 0;
+        width: 100%;
+    }
+    .center-div{
+        border-radius: 0px;
+    }
+    .form-div{
+        margin-top: 0;
+    }
+    .mainDiv{
+        background-color: #fff;
+    }
+  }
